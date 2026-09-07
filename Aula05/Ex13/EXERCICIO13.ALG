@@ -1,24 +1,20 @@
-Algoritmo "exercicio6"
+Algoritmo "exercicio13"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 04/09/2026
+// Data atual  : 07/09/2026
 Var
 // Seção de Declarações das variáveis 
-   i:inteiro
+   n: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("Estou imprimindo os numeros de 10 até 1")
 
-   i <- 10
-   enquanto i >= 1 faca 
-            escreval(i)
-            i <- i - 1
-   fimenquanto      
-     //feliz ano novo (só pra comentar)
-   
-   escreval("Feliz ano novo!!")
+   repita
+         escreval("Numero:")
+         leia(n)
+   ate n > 0         //esse foi simples
+   escreva("Seu número maior que zero é: ",n)
 
 Fimalgoritmo
